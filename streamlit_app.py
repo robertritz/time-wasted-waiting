@@ -12,7 +12,7 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 plt.style.use("datafantic-right.mplstyle")
 
 st.markdown("""# How much time have I wasted waiting for websites to load?
-This calculator estimates the time you have wasted since you started using the internet waiting for websites to load. It also estimates how much time you will waste until you die. You can see the blog post that goes along with this app on datafantic.
+This calculator estimates the time you have wasted since you started using the internet waiting for websites to load. It also estimates how much time you will waste until you die. You can see the blog post that goes along with this app on [datafantic](https://datafantic.com/how-much-time-do-we-waste-waiting-for-websites-to-load).
 
 The median time to wait for a website to become usable is **4 seconds**. Even worse, since 2010, the amount of time it takes a website to load **hasn't changed**. Our internet is faster, but we still wait. 
 
