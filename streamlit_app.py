@@ -51,7 +51,7 @@ if calculate:
     #
     life_expectancy = 80
     st.markdown(f"""
-    #### In the next {life_expectancy - age} year you will waste {round(y[-1], 2)} days waiting for websites to load.
+    #### In the next {life_expectancy - age} years you will waste {round(y[-1], 2)} days waiting for websites to load.
     """)
     x_life, y_life = functions.waiting_time_life(age, life_expectancy, age, avg_webpages, waiting_seconds)
     fig2 = functions.plot_lifetime_wasted(x_life, y_life, life_expectancy, age, waiting_seconds, avg_webpages)
